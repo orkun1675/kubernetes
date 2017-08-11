@@ -82,6 +82,8 @@ type Table string
 const (
 	TableNAT    Table = "nat"
 	TableFilter Table = "filter"
+	TableMangle Table = "mangle"
+	TableRaw    Table = "raw"
 )
 
 type Chain string
